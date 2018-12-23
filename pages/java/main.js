@@ -34,7 +34,7 @@ $("document").ready(function(){
 	var navDes = ['Введение в цифровую культуру', 'Технологии Интернета и WEB', 'Github', 'Blog'];
 	var iconM = "&#xE5D2;";
 	//LINKS EN EL ORDEN QUE APARECEN
-	var linksNav = ['file:///C:/Users/amartinez/Documents/2018%20ITMO/SEMESTRE%201/Cultura%20online/Pagina/main.html#', 'https://courses.openedu.ru/courses/course-v1:ITMOUniversity+DIGCUL+summer_2018/courseware/c40a48c6d822423a8f04a1ee68df02db/4267d2efea484ba797a66280f0236800/', 'https://github.com/jorgeAML', 'https://jorgeaml.github.io/medicinaresourcesblog.github.io/posts/2018-1-28-ads_en_medicinaresources.html'];
+	var linksNav = ['https://jorgeaml.github.io/cultura_digital.github.io/', 'https://courses.openedu.ru/courses/course-v1:ITMOUniversity+DIGCUL+summer_2018/courseware/c40a48c6d822423a8f04a1ee68df02db/4267d2efea484ba797a66280f0236800/', 'https://github.com/jorgeAML', 'https://jorgeaml.github.io/medicinaresourcesblog.github.io/posts/2018-1-28-ads_en_medicinaresources.html'];
 	//VUE IN ACTION
 	new Vue({
 		el: '.nav',
