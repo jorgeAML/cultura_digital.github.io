@@ -171,6 +171,49 @@ MEDIA QUERY FOR DESKTOPS
         text-align: justify;
     }
 }
+/*MEDIA QUERYES FOR PHONES */
+@media only screen and (max-width: 1024px) {
+    .hojapost {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .imgpost1 {
+        width: 100%;
+        object-fit: cover;
+    }
+    .circle-parrafo {
+        color: 	#afafaf;
+	    font-family: 'Comfortaa', cursive;
+        text-align: center;
+        padding: 1%;
+        font-size: 0.8em;
+    }
+    .title-principal-x4 {
+        margin-left: 5%;
+	    color: #333333;
+	    font-family: 'Didact Gothic', sans-serif;
+	    font-size: 2em;
+	    text-align: center;
+    }
+    .title-principal {
+        margin-left: 10%;
+	    margin-right: 10%;
+	    color: #0e1111;
+	    font-family: 'Didact Gothic', sans-serif;
+	    font-size: 1.5em;
+	    text-align: center;
+    }
+    .parafo-prin {
+        margin-left: 10%;
+        margin-right: 10%;
+        color: #414a4c;
+        /**/
+	    font-family: 'Libre Franklin', sans-serif;
+        font-size: 0.8em;
+        line-height: 150%;
+        text-align: justify;
+    }
+}
 .circle-jorge {
 	width: 50px;
 	height: 50px;
@@ -180,16 +223,16 @@ MEDIA QUERY FOR DESKTOPS
 	background-size: 50px;
 	display: right;
 	border: 2px solid #dbdcff;
-	margin-left: 10%;
+	margin-left: 5%;
 	float: left;
 	position: relative;
 }
 .title-mrn {
 	color: #333333;
 	font-family: 'Didact Gothic', sans-serif;
-	margin-left: 16%;
+	margin-left: 18%;
 	margin-top: 2.5%;
-	font-size: 1.2em;
+	font-size: 0.8em;
 }
 
 
