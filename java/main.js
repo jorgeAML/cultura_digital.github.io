@@ -105,7 +105,7 @@ $(document).ready(function(){
 		html: "<a><img><p/><h2/><ul><li/><li/><li/><li/><li/></ul><div/></a>",
 	});
 	$(".a1").find("img").eq(0).attr({
-		"src": "Images/web500.png",
+		"src": "images/web500.png",
 		"class": "imgpost1-l",
 	});
 	$(".a1").find("p").eq(0).html("цифровой культуре - курса").attr({
