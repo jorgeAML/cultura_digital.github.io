@@ -1,0 +1,367 @@
+/*the main.css*/
+body {
+    margin: 0;
+}
+/*
+NAVBAR RESPONSIVE BEGIN
+*/
+nav img {
+    width: 100%;
+    object-fit: cover;
+}
+.navbar {
+	order: 1;
+	display: flex;
+	background-image: -webkit-linear-gradient(to left, #ffffff, #ffffff);
+	background-image: 	-moz-linear-gradient(to left, #ffffff, #ffffff);
+	background-image: 		-o-linear-gradient(to left, #ffffff, #ffffff);
+	background-image: 			linear-gradient(to left, #ffffff, #ffffff);
+	padding: 19px;
+	font-family: 'Russo One', sans-serif;
+	color: #333333;
+	border-bottom: 2px solid #ffffff;
+	box-shadow: 0px 0.5px 0.5px 0.5px #999999;
+    text-align: center;
+}
+.navbar_items {
+	display: flex;
+}
+.navbar a {
+	text-decoration: none;
+	color: #333333;
+}
+.navbar a:hover {
+    border-top: 3px solid #ff4040;
+    
+} 
+.navbar a:active {
+	transform: scale(0.9);
+}
+/*
+MEDIA QUERY 
+*/
+@media only screen and (min-width: 1030px) {
+	.navbar_link-toogle {
+		display: none;
+	}
+	.navbar_link {
+	padding-right: 50px;
+	padding-left: 50px;
+	}
+	.navbar {
+		order: 0;
+		position: relative;
+		/*width: 100%;*/
+        justify-content: center;
+        opacity: 0.7;
+    }
+    .imgportrait {
+        position: absolute;
+	}
+	.imglogocenter {
+		position: absolute;
+		margin-top: 545px;
+		margin-left: 40%;
+		margin-right: 50%;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+        text-align: center;
+	    width: 17%;
+	    border-radius: 50px;
+	    background-size: 45px;
+        background-color: #ffffff;
+        -webkit-box-shadow: 2px 2px 16px 0px rgba(175, 175, 175, 0.42);
+		-moz-box-shadow:    2px 2px 16px 0px rgba(175, 175, 175, 0.42);
+			box-shadow:         2px 2px 16px 0px rgba(175, 175, 175, 0.42);
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.navbar, 
+	.navbar_items {
+		flex-direction: column;
+		font-size: 0.9em;
+	}
+	.navbar_items {
+		display: none;
+	}
+	.imglogocenter {
+		display: none;
+	}
+	.navbar_ToggleShow {
+		display: flex;
+	}
+	.navbar_link-toogle {
+		align-self: flex-end;
+		display: initial;
+		position: absolute;
+		cursor: pointer;
+	}
+	.navbar_link {
+    padding-right: 8px;
+    padding-top: 3%;
+	}
+	.navbar {
+		margin-top: -5px;
+    }
+    nav img {
+        position: relative;
+    }
+}
+
+/*
+NAVBAR RESPONSIVE -- END
+*/
+
+/*
+TITLE FOR CURSES
+*/
+.cursoTitle {
+    font-family: 'Russo One', sans-serif;
+    position: relative;
+}
+
+@media only screen and (min-width: 1030px) {
+    .cursoTitle {
+        margin-top: 600px;
+        margin-left: 32%;
+        font-size: 2.0em;
+    }
+    .cursoTitle_h1 {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .cursoTitle {
+        margin-left: 16%;
+    }
+    .cursoTitle_h1 {
+        text-align: center;
+    }
+}
+
+/*
+FIRST CONTAINER 
+*/
+.row {
+	/*max-width: 1280px;*/
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+/*
+contener 1 para las 3 primeras cartas
+*/
+
+.container1 {
+	margin: 3% 3% 2% 2%;
+}
+.inline1 {
+	display: inline-flex;
+	flex-direction: row;
+	align-content: center;
+}
+.post1-l {
+	background-color: #fff;
+	margin: 1% 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	position: relative;
+	transition-duration: 1s;
+	-webkit-box-shadow: 2px 2px 16px 0px rgba(175, 175, 175, 0.42);
+		-moz-box-shadow:    2px 2px 16px 0px rgba(175, 175, 175, 0.42);
+			box-shadow:         2px 2px 16px 0px rgba(175, 175, 175, 0.42);
+	cursor: default;
+	border-radius: 5px;
+}
+.post1-l:hover {
+	box-shadow: 0px 3px 148px -26px #b2abb5;
+	transform: scale(1.05,1.05);
+}
+
+	/*Parrafo 1*/
+.pf1 {
+	color: #1b36eb;
+	font-family: 'Comfortaa', cursive;
+}
+.pf1:hover {
+	color: #999999;
+}
+.pf2 {
+	color: #333333;
+	font-family: 'Didact Gothic', sans-serif;
+}
+	/*titulo 1*/
+.hf1 {
+	color: #333333;
+	font-family: 'Libre Franklin', sans-serif;
+}
+	/*button*/
+.btn {
+	font-family: 'Russo One', sans-serif;
+	background-color: #ff4040;
+	color: #fff;
+	box-shadow: 0 1px 1.5px #808080;
+	padding: 2%;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	margin-left: 30%;
+	margin-right: 30%;
+	position: relative;
+	transition-duration: 0.5s;
+}
+.btn:hover {
+	box-shadow: 0px -1px -1px -1px #dbeeff;
+	transform: scale(1.05,1.05);
+	background-color: #ccff00;
+	color: #0e2f44;
+}
+/*links*/
+a {
+	text-decoration: none;
+}
+/*
+Media query for container 1 fos Desktop
+*/
+@media only screen and (min-width: 1030px) {
+	.btn {
+		margin-bottom: 5%;
+	}
+	.mtop {
+		margin-top: 10%;
+    }
+    .More {
+        margin-top: 27%;
+    }
+    .MoreT {
+        margin-top: 22%;
+    }
+	.hf1 {
+        margin-left: 5%;
+        /*font-weight: 500;*/
+	}
+	.pf2 {
+		margin-left: 5%;
+		margin-right: 10%;
+		font-size: 1.1em;
+	}
+	.pf1 {
+		margin-left: 5%;
+		font-size: 0.7em;
+		font-weight: bold;
+	}
+	.margin_600 {
+		margin-top: 1px;
+		
+	}
+	.post1-l:hover {
+		cursor: default;
+	}
+	.imgpost1-l {
+		width: 100%;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+	.a1 {
+		order: 1;
+		flex: 2 2 10%;
+	}
+	.a2 {
+		order: 2;
+		flex: 2 2 10%;
+	}
+	.a3 {
+		order: 3;
+		flex: 2 2 10%;
+	}
+}
+@media only screen and (max-width: 1024px) {
+    .post1-l {
+        margin-top: 15%;
+    }
+	.imgpost1-l {
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+	}
+	.inline1 {
+		display: inline-flex;
+		flex-direction: column;
+		align-content: center;
+	}
+	/*primer parrafo*/
+	.pf1 {
+		margin-left: 5%;
+		font-weight: bold;
+	}
+	/*Primer Titulo*/
+	.hf1 {
+		margin-left: 5%;
+		font-size: 1.6em;
+	}
+	/*Segundo Parrafo*/
+	.pf2 {
+		margin-left: 5%;
+		margin-right: 10%;
+		font-size: 1.1em;
+	}
+	/*botón*/
+	.btn {
+		margin-bottom: 5%;
+	}
+}
+
+/*
+FOOTER STYLE
+*/
+
+hr {
+    border: none;
+    border-top: 2px dashed 	#bab7b7;
+    color: #655a5a;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+hr:after {
+    background: #fff;
+    content: '||';
+    padding: 0 0px;
+    position: relative;
+    top: -10px;
+}
+.footerH1, .footerH2 {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
+.footerImg {
+    align-content: center;
+}
+.linkF {
+    text-decoration: none;
+	color: #333333;
+}
+.linkF:hover {
+    color:	#fc4747;
+}
+/*Media query for Phones*/
+@media only screen and (min-width: 1030px) {
+    .containerFooter {
+        align-content: center;
+    }
+    .footerImg {
+        width: 20%;
+        text-align: center;
+        margin-left: 40%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .footerImg {
+        width: 100%;
+        text-align: center;
+        margin-left: 0%;
+    }
+}
